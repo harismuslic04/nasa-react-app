@@ -30,6 +30,7 @@
 .imgContainer {
   display: flex;
   flex-direction: column;
+  max-height: 100vh;
 }
 footer {
   position: fixed;
@@ -133,6 +134,11 @@ footer div {
   }
   .sidebarContents {
     margin: unset;
+  }
+  .bgOverlay {
+    right: 0;
+    left: unset;
+    width: 100vw;
   }
 }
 .loadingState {
